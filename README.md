@@ -7,7 +7,7 @@ npm install --save core-js-pro
 ## 使用
 
 ```javascript
-import $core from 'core-js-pro';
+import $core from "core-js-pro";
 ```
 
 ## 目录
@@ -42,6 +42,8 @@ import $core from 'core-js-pro';
 
 [$core.isFinite](https://github.com/qianduanka/core-js-pro/blob/main/markdown/type/isFinite.md) 判断是否为有限数值
 
+[$core.isEmpty](https://github.com/qianduanka/core-js-pro/blob/main/markdown/type/isEmpty.md) 判断是否为假值、空数组、空对象、空集合
+
 [$core.isFunction](https://github.com/qianduanka/core-js-pro/blob/main/markdown/type/isFunction.md) 判断是否为函数
 
 [$core.instance](https://github.com/qianduanka/core-js-pro/blob/main/markdown/type/instance.md) 判断对象是否为类的实例
@@ -60,11 +62,35 @@ import $core from 'core-js-pro';
 
 [$core.isWeakMap](https://github.com/qianduanka/core-js-pro/blob/main/markdown/type/isWeakMap.md) 判断是否为 WeakMap
 
+[$core.isInt8Array](https://github.com/qianduanka/core-js-pro/blob/main/markdown/type/isInt8Array.md) 判断是否为 Int8Array
+
 [$core.isInt16Array](https://github.com/qianduanka/core-js-pro/blob/main/markdown/type/isInt16Array.md) 判断是否为 Int16Array
+
+[$core.isInt32Array](https://github.com/qianduanka/core-js-pro/blob/main/markdown/type/isInt32Array.md) 判断是否为 Int32Array
+
+[$core.isUint8Array](https://github.com/qianduanka/core-js-pro/blob/main/markdown/type/isUint8Array.md) 判断是否为 Uint8Array
+
+[$core.isUint16Array](https://github.com/qianduanka/core-js-pro/blob/main/markdown/type/isUint16Array.md) 判断是否为 Uint16Array
+
+[$core.isUint32Array](https://github.com/qianduanka/core-js-pro/blob/main/markdown/type/isUint32Array.md) 判断是否为 Uint32Array
+
+[$core.isFloat32Array](https://github.com/qianduanka/core-js-pro/blob/main/markdown/type/isFloat32Array.md) 判断是否为 Float32Array
+
+[$core.isFloat64Array](https://github.com/qianduanka/core-js-pro/blob/main/markdown/type/isFloat64Array.md) 判断是否为 Float64Array
+
+[$core.isBigInt64Array](https://github.com/qianduanka/core-js-pro/blob/main/markdown/type/isBigInt64Array.md) 判断是否为 BigInt64Array
+
+[$core.isBigUint64Array](https://github.com/qianduanka/core-js-pro/blob/main/markdown/type/isBigUint64Array.md) 判断是否为 BigUint64Array
 
 [$core.isArrayBuffer](https://github.com/qianduanka/core-js-pro/blob/main/markdown/type/isArrayBuffer.md) 判断是否为 ArrayBuffer
 
 [$core.isDataView](https://github.com/qianduanka/core-js-pro/blob/main/markdown/type/isDataView.md) 判断是否为 DataView
+
+[$core.isBlob](https://github.com/qianduanka/core-js-pro/blob/main/markdown/type/isBlob.md) 判断是否为 Blob
+
+[$core.isFormData](https://github.com/qianduanka/core-js-pro/FormData/main/markdown/type/isFormData.md) 判断是否为 FormData
+
+[$core.isStream](https://github.com/qianduanka/core-js-pro/FormData/main/markdown/type/isStream.md) 判断是否为 Stream
 
 ---
 
@@ -100,7 +126,11 @@ import $core from 'core-js-pro';
 
 ### [STRING](https://github.com/qianduanka/core-js-pro/blob/main/markdown/string/index.md) 字符串
 
-[$core.toString](https://github.com/qianduanka/core-js-pro/blob/main/markdown/string/toString.md) 转换成字符串
+[$core.toParamString](https://github.com/qianduanka/core-js-pro/blob/main/markdown/string/toParamString.md) 转换成字符串
+
+[$core.toSeparator](https://github.com/qianduanka/core-js-pro/blob/main/markdown/string/toSeparator.md) 转换连接符方式，默认中划线
+
+[$core.toHump](https://github.com/qianduanka/core-js-pro/blob/main/markdown/string/toHump.md) 转换驼峰方式
 
 [$core.lowerFirst](https://github.com/qianduanka/core-js-pro/blob/main/markdown/string/lowerFirst.md) 字符串首字母转换成小写
 
@@ -153,6 +183,20 @@ import $core from 'core-js-pro';
 [$core.sample](https://github.com/qianduanka/core-js-pro/blob/main/markdown/collection/sample.md) 随机获取集合元素
 
 [$core.shuffle](https://github.com/qianduanka/core-js-pro/blob/main/markdown/collection/shuffle.md) 打乱集合
+
+[$core.isSetLike](https://github.com/qianduanka/core-js-pro/blob/main/markdown/collection/isSetLike.md) 判断是否满足集合特性
+
+[$core.subSet](https://github.com/qianduanka/core-js-pro/blob/main/markdown/collection/subSet.md) 判断是不是子集
+
+[$core.intersection](https://github.com/qianduanka/core-js-pro/blob/main/markdown/collection/intersection.md) 交集
+
+[$core.union](https://github.com/qianduanka/core-js-pro/blob/main/markdown/collection/union.md) 并集
+
+[$core.symmetricDifference](https://github.com/qianduanka/core-js-pro/blob/main/markdown/collection/symmetricDifference.md) 差集
+
+[$core.complementSet](https://github.com/qianduanka/core-js-pro/blob/main/markdown/collection/complementSet.md) 补集 补集一般指绝对补集
+
+[$core.unique](https://github.com/qianduanka/core-js-pro/blob/main/markdown/collection/unique.md) 去重
 
 ## 微信号
 

@@ -2,10 +2,13 @@
 
 ## 方法
 
-1. $core.debounce
-2. $core.throttle
-3. $core.sleep
-4. $core.delay
-5. $core.curry
-6. $core.before
-7. $core.after
+[$core.debounce](https://github.com/qianduanka/core-js-pro/blob/main/markdown/function/debounce.md) 防抖
+
+[$core.throttle](https://github.com/qianduanka/core-js-pro/blob/main/markdown/function/throttle.md) 节流
+
+[$core.sleep](https://github.com/qianduanka/core-js-pro/blob/main/markdown/function/sleep.md) 休眠
+
+[$core.delay](https://github.com/qianduanka/core-js-pro/blob/main/markdown/function/delay.md) 延迟
+
+[$core.curry](https://github.com/qianduanka/core-js-pro/blob/main/markdown/function/curry.md) 柯里化
+

@@ -22,4 +22,8 @@ $core.isFunction(Number); // true
 $core.isFunction(() => {}); // true
 $core.isFunction(function () {}); // true
 $core.isFunction(class Book {}); // true
+$core.isFunction(function* () {}); // true
+$core.isFunction(async function* () {
+  yield await Promise.resolve('qianduanka');
+}); // true
 ```

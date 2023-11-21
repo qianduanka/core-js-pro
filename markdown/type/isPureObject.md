@@ -23,4 +23,5 @@ $core.isPureObject([]); // false
 $core.isPureObject("qianduanka"); // false
 $core.isPureObject(new String("qianduanka")); // false
 $core.isPureObject(new Map()); // false
+$core.isPureObject(null); // false
 ```

@@ -1,10 +1,10 @@
-# $core.group
+# $core.groupBy
 
-`$core.group`方法用于将数组按照指定的规则进项分组。
+`$core.groupBy`方法用于将数组按照指定的规则进项分组。
 
 ## 语法
 
-> $core.group(target = [], iteratee)
+> $core.groupBy(target = [], iteratee)
 
 ### 参数
 
@@ -30,15 +30,15 @@ target 指待分组的数组。
 ```javascript
 $core.group(); // {}
 
-$core.group($core.group([3.14, 6.2, 3.3], Math.floor)); // {3:[3.14, 3.3],6:[6.2]}
-$core.group(['one', 'two', 'three'], 'length'); // {3:["one","two"],5:["three"]}
-$core.group(['one', 'two', 'three'], (item) => item[0]); // {o:["one"],t:["two","three"]}
+$core.group($core.groupBy([3.14, 6.2, 3.3], Math.floor)); // {3:[3.14, 3.3],6:[6.2]}
+$core.groupBy(["one", "two", "three"], "length"); // {3:["one","two"],5:["three"]}
+$core.groupBy(["one", "two", "three"], (item) => item[0]); // {o:["one"],t:["two","three"]}
 ```
 
 ### 例二、
 
 ```javascript
-$core.group('qianduanka');
+$core.group("qianduanka");
 
 /*
 {
@@ -56,7 +56,7 @@ $core.group('qianduanka');
 ### 例三、
 
 ```javascript
-$core.group($core.group({ a: 'aaa', b: 'bbb', c: 'ccc', aa: 'aaa' }));
+$core.group($core.groupBy({ a: "aaa", b: "bbb", c: "ccc", aa: "aaa" }));
 
 /*
 {
@@ -71,13 +71,13 @@ $core.group($core.group({ a: 'aaa', b: 'bbb', c: 'ccc', aa: 'aaa' }));
 
 ```javascript
 const inventory = [
-  { name: 'asparagus', type: 'vegetables', quantity: 9 },
-  { name: 'bananas', type: 'fruit', quantity: 5 },
-  { name: 'goat', type: 'meat', quantity: 23 },
-  { name: 'cherries', type: 'fruit', quantity: 12 },
-  { name: 'fish', type: 'meat', quantity: 22 },
+  { name: "asparagus", type: "vegetables", quantity: 9 },
+  { name: "bananas", type: "fruit", quantity: 5 },
+  { name: "goat", type: "meat", quantity: 23 },
+  { name: "cherries", type: "fruit", quantity: 12 },
+  { name: "fish", type: "meat", quantity: 22 },
 ];
-$core.group(inventory, ({ type }) => type);
+$core.groupBy(inventory, ({ type }) => type);
 
 /*
 {
@@ -98,16 +98,16 @@ $core.group(inventory, ({ type }) => type);
 
 ```javascript
 const inventory = [
-  { name: 'asparagus', type: 'vegetables', quantity: 9 },
-  { name: 'bananas', type: 'fruit', quantity: 5 },
-  { name: 'goat', type: 'meat', quantity: 23 },
-  { name: 'cherries', type: 'fruit', quantity: 12 },
-  { name: 'fish', type: 'meat', quantity: 22 },
+  { name: "asparagus", type: "vegetables", quantity: 9 },
+  { name: "bananas", type: "fruit", quantity: 5 },
+  { name: "goat", type: "meat", quantity: 23 },
+  { name: "cherries", type: "fruit", quantity: 12 },
+  { name: "fish", type: "meat", quantity: 22 },
 ];
 
 const restock = { restock: true };
 const sufficient = { restock: false };
-const result = $core.group(
+const result = $core.groupBy(
   inventory,
   ({ quantity }) => (quantity < 6 ? restock : sufficient),
   $core.MAP
@@ -116,16 +116,4 @@ const result = $core.group(
 console.log(result.get(restock));
 
 // [{ name: 'bananas', type: 'fruit', quantity: 5 }]
-```
-
-## 安装
-
-```shell
-npm install --save core-js-pro
-```
-
-## 使用
-
-```javascript
-import $core from 'core-js-pro';
 ```

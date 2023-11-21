@@ -17,6 +17,8 @@
 
 ```javascript
 $core.isPromise(new Promise(() => {})); // true
-$core.isPromise(Promise.resolve("qianduanka")); // true
+$core.isPromise(Promise.resolve('qianduanka')); // true
+$core.isPromise(Promise.reject('qianduanka')); // true
 $core.isPromise(Promise); // false
+$core.isPromise(await function () {}); // false
 ```

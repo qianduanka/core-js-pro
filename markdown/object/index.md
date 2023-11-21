@@ -2,13 +2,14 @@
 
 ## 方法
 
-1.  $core.cloneDeep 深拷贝
-2.  $core.assign 浅扩展
-3.  $core.extend 深扩展
-4.  $core.equalTarget 判断对象键值对是否一样
-5.  $core.reduceTarget 结构精简化对象
-6.  $core.delReduceTarget 结构精简化对象
+[$core.cloneDeep](https://github.com/qianduanka/core-js-pro/blob/main/markdown/object/cloneDeep.md) 深拷贝
 
+[$core.assign](https://github.com/qianduanka/core-js-pro/blob/main/markdown/object/assign.md) 浅扩展
 
+[$core.extend](https://github.com/qianduanka/core-js-pro/blob/main/markdown/object/extend.md) 深扩展
 
+[$core.equalTarget](https://github.com/qianduanka/core-js-pro/blob/main/markdown/object/equalTarget.md) 判断对象是否一样
 
+[$core.reduceTarget](https://github.com/qianduanka/core-js-pro/blob/main/markdown/object/reduceTarget.md) 精简化对象
+
+[$core.delReduceTarget](https://github.com/qianduanka/core-js-pro/blob/main/markdown/object/delReduceTarget.md) 精简化对象

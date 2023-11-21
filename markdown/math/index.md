@@ -2,17 +2,27 @@
 
 ## 方法
 
-1. $core.add 加法
-2. $core.sub 减法
-3. $core.mul 乘法
-4. $core.div 除法
-5. $core.min 最小值
-6. $core.max 最大值
-7. $core.sum 求和
-8. $core.mean 平均值
-9. $core.floor 按精度向下
-10. $core.ceil 按精度向上
-11. $core.round 按精度四舍五入
+[$core.add](https://github.com/qianduanka/core-js-pro/blob/main/markdown/math/add.md) 加法
+
+[$core.sub](https://github.com/qianduanka/core-js-pro/blob/main/markdown/math/sub.md) 减法
+
+[$core.mul](https://github.com/qianduanka/core-js-pro/blob/main/markdown/math/mul.md) 乘法
+
+[$core.div](https://github.com/qianduanka/core-js-pro/blob/main/markdown/math/div.md) 除法
+
+[$core.min](https://github.com/qianduanka/core-js-pro/blob/main/markdown/math/min.md) 获取最小数
+
+[$core.max](https://github.com/qianduanka/core-js-pro/blob/main/markdown/math/max.md) 获取最大数
+
+[$core.sum](https://github.com/qianduanka/core-js-pro/blob/main/markdown/math/sum.md) 求和
+
+[$core.mean](https://github.com/qianduanka/core-js-pro/blob/main/markdown/math/mean.md) 平均数
+
+[$core.floor](https://github.com/qianduanka/core-js-pro/blob/main/markdown/math/floor.md) 按指定精度向下获取
+
+[$core.ceil](https://github.com/qianduanka/core-js-pro/blob/main/markdown/math/ceil.md) 按指定精度向上获取
+
+[$core.round](https://github.com/qianduanka/core-js-pro/blob/main/markdown/math/round.md) 按指定精度四舍五入获取
 
 ## $core.add 加法
 
@@ -155,11 +165,11 @@ $core.min([3, 1, 9, 5, 7]); // 1
 
 ```javascript
 $core.min([
-  { name: 'a', age: 3 },
-  { name: 'b', age: 1 },
-  { name: 'c', age: 9 },
-  { name: 'd', age: 5 },
-  { name: 'e', age: 7 },
+  { name: "a", age: 3 },
+  { name: "b", age: 1 },
+  { name: "c", age: 9 },
+  { name: "d", age: 5 },
+  { name: "e", age: 7 },
 ]); // { name: 'b', age: 1 }
 ```
 
@@ -192,11 +202,11 @@ $core.max([3, 1, 9, 5, 7]); // 9
 
 ```javascript
 $core.max([
-  { name: 'a', age: 3 },
-  { name: 'b', age: 1 },
-  { name: 'c', age: 9 },
-  { name: 'd', age: 5 },
-  { name: 'e', age: 7 },
+  { name: "a", age: 3 },
+  { name: "b", age: 1 },
+  { name: "c", age: 9 },
+  { name: "d", age: 5 },
+  { name: "e", age: 7 },
 ]); // { name: 'c', age: 9 }
 ```
 
@@ -228,11 +238,11 @@ $core.sum([3, 1, 9, 5, 7]); // 25
 ```javascript
 $core.sum(
   [
-    { name: 'a', age: 3 },
-    { name: 'b', age: 1 },
-    { name: 'c', age: 9 },
-    { name: 'd', age: 5 },
-    { name: 'e', age: 7 },
+    { name: "a", age: 3 },
+    { name: "b", age: 1 },
+    { name: "c", age: 9 },
+    { name: "d", age: 5 },
+    { name: "e", age: 7 },
   ],
   function (item) {
     return item.age * 10;
@@ -249,11 +259,11 @@ $core.mean([3, 1, 9, 5, 7]); // 5
 ```javascript
 $core.mean(
   [
-    { name: 'a', age: 3 },
-    { name: 'b', age: 1 },
-    { name: 'c', age: 9 },
-    { name: 'd', age: 5 },
-    { name: 'e', age: 7 },
+    { name: "a", age: 3 },
+    { name: "b", age: 1 },
+    { name: "c", age: 9 },
+    { name: "d", age: 5 },
+    { name: "e", age: 7 },
   ],
   function (item) {
     return item.age * 10;
