@@ -1,6 +1,6 @@
 # $core.delReduceTarget
 
-`$core.delReduceTarget` 继承
+`$core.delReduceTarget` 方法用于按照描述删除字段精简化对象数据结构。
 
 ## 语法
 

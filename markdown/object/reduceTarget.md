@@ -1,6 +1,6 @@
 # $core.reduceTarget
 
-`$core.reduceTarget` 继承
+`$core.reduceTarget` 方法用于按照描述保留字段精简化对象数据结构。
 
 ## 语法
 
