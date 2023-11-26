@@ -8,8 +8,6 @@
 
 [$core.extend](https://github.com/qianduanka/core-js-pro/blob/main/markdown/object/extend.md) 深扩展
 
-[$core.equalTarget](https://github.com/qianduanka/core-js-pro/blob/main/markdown/object/equalTarget.md) 判断对象是否一样
-
 [$core.reduceTarget](https://github.com/qianduanka/core-js-pro/blob/main/markdown/object/reduceTarget.md) 精简化对象
 
 [$core.delReduceTarget](https://github.com/qianduanka/core-js-pro/blob/main/markdown/object/delReduceTarget.md) 精简化对象

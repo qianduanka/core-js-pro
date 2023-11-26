@@ -1,6 +1,6 @@
 {
   "name": "core-js-pro",
-  "version": "0.0.0-beta.5",
+  "version": "0.0.0-beta.7",
   "description": "core-js-pro is a Standard library. the library with basic JavaScript methods to improve development efficiency.",
   "keywords": [
     "$core",
@@ -22,6 +22,8 @@
     "$core.isArray",
     "$core.isNaN",
     "$core.isFinite",
+    "$core.isEmpty",
+    "$core.isEqual",
     "$core.isFunction",
     "$core.isSet",
     "$core.isMap",
@@ -38,7 +40,6 @@
     "$core.cloneDeep",
     "$core.assign",
     "$core.extend",
-    "$core.equalTarget",
     "$core.reduceTarget",
     "$core.delReduceTarget",
     "Function",

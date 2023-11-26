@@ -34,6 +34,8 @@ javascript 中包括基本类型和引用类型两大类，基本类型有 numbe
 
 [$core.isEmpty](https://github.com/qianduanka/core-js-pro/blob/main/markdown/type/isEmpty.md) 判断是否为假值、空数组、空对象、空集合
 
+[$core.isEqual](https://github.com/qianduanka/core-js-pro/blob/main/markdown/type/isEqual.md) 判断是否值信息是否一样
+
 [$core.isFunction](https://github.com/qianduanka/core-js-pro/blob/main/markdown/type/isFunction.md) 判断是否为函数
 
 [$core.instance](https://github.com/qianduanka/core-js-pro/blob/main/markdown/type/instance.md) 判断对象是否为类的实例
@@ -81,6 +83,3 @@ javascript 中包括基本类型和引用类型两大类，基本类型有 numbe
 [$core.isFormData](https://github.com/qianduanka/core-js-pro/FormData/main/markdown/type/isFormData.md) 判断是否为 FormData
 
 [$core.isStream](https://github.com/qianduanka/core-js-pro/FormData/main/markdown/type/isStream.md) 判断是否为 Stream
-
-
-
